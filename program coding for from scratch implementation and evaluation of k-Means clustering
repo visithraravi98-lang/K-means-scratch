@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans
+import seaborn as sns
 
 #Generate Synthetic dataset
 np.random.seed(42)
